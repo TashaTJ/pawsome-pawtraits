@@ -7,6 +7,7 @@
 }
 
 body {
+    margin: 0;
     font-family: Bangers, sans-serif;
     color: black;
 }
@@ -21,39 +22,33 @@ h1, h2 {
 /* header */
 
 #header {
-    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    flex: 0 1 60%;
 }
 
-#header-left {
-    width: 33%;
-    float: left;
-    background-color: blue;
+#header, h1 {
+    margin: 0;
 }
 
-#header-right {
-    width: 33%;
-    float: right;
-    background-color: silver;
-}
-
-#header-center {
-    width: 33%;
-    margin: 0 auto;
-    text-align: center;
-    background-color: green;
-}
-
-/* navigation links */
+/* navigation items */
 
 #menu {
     font-size: 110%;
-
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0 1 40%;
+    
 }
 
 #menu li {
-    float: left;
-    list-style-type: none;
     margin-right: 10px;
+    
 }
 
 #menu a {
