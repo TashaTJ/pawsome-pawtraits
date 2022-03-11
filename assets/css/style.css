@@ -8,4 +8,12 @@
 
 body {
     font-family: Bangers, sans-serif;
+    color: black;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Bangers, sans-serif;
+    color: black;
 }
