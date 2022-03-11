@@ -17,3 +17,46 @@ h1, h2 {
     font-family: Bangers, sans-serif;
     color: black;
 }
+
+/* header */
+
+#header {
+    height: 150px;
+}
+
+#header-left {
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#header-right {
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#header-center {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: green;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
