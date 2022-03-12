@@ -103,12 +103,40 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+/* Small devices */
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    #menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    #menu a {
+        display: block;
+        border-bottom: 1px solid black;
+    }
+    toggle:checked + #menu {
+        display: block;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
-
