@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Bangers, sans-serif;
     color: black;
 }
@@ -23,6 +24,7 @@ h1, h2 {
 
 #header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
@@ -30,7 +32,8 @@ h1, h2 {
     /* background: red; */
 }
 
-#header, h1 {
+#header,
+h1 {
     margin: 0;
 }
 
@@ -43,7 +46,7 @@ h1, h2 {
 }
 
 .branding a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 
@@ -56,9 +59,9 @@ h1, h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex: 0 1 33%; 
+    flex: 0 1 33%;
     /* background: blue; */
-    
+
 }
 
 #socials {
@@ -69,15 +72,15 @@ h1, h2 {
     justify-content: space-around;
     align-items: center;
     flex: 0 1 33%
-    
 }
+
 /* nav {
     background: green;
 } */
 
 #menu li {
     margin-right: 10px;
-    
+
 }
 
 #menu a {
@@ -89,4 +92,14 @@ h1, h2 {
     margin-left: 10px;
     text-decoration: none;
     color: inherit;
+}
+
+/* Hero image */
+
+.hero {
+    height: 100vh;
+    background-image: url(../images/Hero_Image_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
