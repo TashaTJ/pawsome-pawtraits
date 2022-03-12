@@ -27,14 +27,13 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 0.5rem; 
     flex: 0 1 33%;
-    /* background: red; */
 }
 
-#header,
-h1 {
+#header, h1 {
     margin: 0;
+
 }
 
 #header a:hover {
@@ -53,14 +52,14 @@ h1 {
 /* navigation items */
 
 #menu {
-    font-size: 90%;
+    font-size: 80%;
     list-style-type: none;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex: 0 1 33%;
-    /* background: blue; */
+    
 
 }
 
@@ -89,7 +88,7 @@ h1 {
 }
 
 #socials a {
-    margin-left: 10px;
+    margin-left: 22px;
     text-decoration: none;
     color: inherit;
 }
@@ -103,3 +102,13 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
