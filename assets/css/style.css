@@ -130,9 +130,24 @@ label {
         display: block;
         border-bottom: 1px solid black;
     }
+
     toggle:checked + #menu {
-        display: block;
+        display: inline-flex;
+
     }
+
+    #socials {
+        display: none;
+    }
+
+    .branding {
+        flex: 0 1 50%;
+        padding: 0%;
+        /*margin-left: 0;
+        margin-right: auto;*/
+    
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
