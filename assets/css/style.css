@@ -26,28 +26,51 @@ h1, h2 {
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
-    flex: 0 1 60%;
-    background: red;
+    flex: 0 1 33%;
+    /* background: red; */
 }
 
 #header, h1 {
     margin: 0;
 }
 
+#header a:hover {
+    color: #786C44;
+}
+
+#header a h1:hover {
+    color: #786C44;
+}
+
+.branding a {
+    text-decoration: none;    
+}
+
+
 /* navigation items */
 
 #menu {
-    font-size: 110%;
+    font-size: 90%;
     list-style-type: none;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex: 0 1 40%; 
-    background: blue; 
+    flex: 0 1 33%; 
+    /* background: blue; */
     
 }
 
+#socials {
+    font-size: 130%;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0 1 33%
+    
+}
 /* nav {
     background: green;
 } */
@@ -58,6 +81,12 @@ h1, h2 {
 }
 
 #menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#socials a {
+    margin-left: 10px;
     text-decoration: none;
     color: inherit;
 }
