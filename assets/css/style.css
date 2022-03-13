@@ -65,7 +65,7 @@ h2 {
 }
 
 #menu li {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 /* Social media links */
@@ -152,20 +152,24 @@ label {
 
     #menu a {
         display: block;
-        border-bottom: 1px solid black;
+        /*border-bottom: 1px solid black;*/
     }
 
     #toggle:checked ~ #menu {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        /*flex-grow: 3;
+        text-align: left;*/
         }
 
     #socials {
         position: absolute;
         top: 90vh;
         left: 50%;
+        align-items: stretch;
         transform: translate(-50%, -50%);
+        
     }
 
     #socials-menu-bottom {
@@ -182,11 +186,14 @@ label {
     .branding {
         flex: 0 1 50%;
         padding: 0%;
-        text-align: left;
+        padding-top: 10px;
+        flex-grow: 3;
+        text-align: right;
         /*margin-left: 0;
         margin-right: auto;*/
     
     }
+
 
 }
 
