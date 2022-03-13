@@ -20,6 +20,7 @@ h2 {
     color: black;
 }
 
+
 /* header */
 
 #header {
@@ -63,6 +64,10 @@ h2 {
 
 }
 
+#menu li {
+    margin-right: 10px;
+}
+
 /* Social media links */
 
 #socials {
@@ -75,12 +80,19 @@ h2 {
     flex: 0 1 33%
 }
 
-#socials-menu-bottom {
-    font-size: 130%;
+#header {
+    position: relative;
+}
+
+/*#socials-menu-bottom {
+   font-size: 130%;
     list-style-type: none;
     text-decoration: none;
     position: absolute;
+    right: 50%;
+    top: 850px;
     bottom: 0;
+    display: none;*/ 
     
     
 }
@@ -143,11 +155,6 @@ label {
         border-bottom: 1px solid black;
     }
 
-    /* #toggle:checked ~ #menu a {
-        display: inline-flex;
-
-    } */
-
     #toggle:checked ~ #menu {
         display: flex;
         flex-direction: column;
@@ -155,14 +162,17 @@ label {
         }
 
     #socials {
-        display: none;
+        position: absolute;
+        top: 90vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #socials-menu-bottom {
-        display: flex;
-        position: relative;
-        top: 50%;
-        bottom: 0;
+        /*display: flex;
+        flex-direction: ;
+        position: absolute;
+        bottom: 0; */
     }
 
     #header {
@@ -172,6 +182,7 @@ label {
     .branding {
         flex: 0 1 50%;
         padding: 0%;
+        text-align: left;
         /*margin-left: 0;
         margin-right: auto;*/
     
