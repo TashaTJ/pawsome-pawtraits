@@ -199,12 +199,20 @@ label {
     margin: 0.125rem 0.625rem;
 }
 
-
-
-
 /*.ft-social-list li:hover {
        color: #786C44;
     } */
+
+/* About Page */
+
+.background-about {
+    height: 100vh;
+    background-image: url(../images/background-about-page.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 /* Small devices under 500px */
@@ -271,10 +279,15 @@ label {
         
     }
 
+    .background-about {
+        height: 100vh;
+        background-image: url(../images/iPhone_Background_About_.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
 
-
-}
 
 /* Medium devices (tablets, 501px and up) */
 @media (min-width: 501px) { 
