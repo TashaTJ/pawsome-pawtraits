@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    flex: 1;    /* same as flex-grow: 1; */
+    flex: 1;
 }
 
 /* headings and logo */
@@ -205,7 +205,7 @@ label {
 /*.ft-social-list li:hover {
        color: #786C44;
     } */
-}
+
 
 /* Small devices under 500px */
 @media only screen and (max-width: 500px) {
