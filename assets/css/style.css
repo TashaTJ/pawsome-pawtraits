@@ -60,7 +60,7 @@ h2 {
 /* navigation items */
 
 #menu {
-    font-size: 80%;
+    font-size: 90%;
     list-style-type: none;
     text-decoration: none;
     display: flex;
@@ -135,8 +135,8 @@ h2 {
 }
 
 label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
+    margin: 0 10px 0 0;
+    font-size: 40px;
     display: none;
 }
 
@@ -251,6 +251,7 @@ label {
 
     #header {
         align-items: unset;
+        flex-direction: row-reverse;
     }
 
     .branding {
@@ -258,7 +259,7 @@ label {
         padding: 0%;
         padding-top: 10px;
         flex-grow: 3;
-        text-align: right;
+        text-align: left;
         /*margin-left: 0;
         margin-right: auto;*/
     
