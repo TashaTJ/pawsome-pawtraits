@@ -10,6 +10,13 @@ body {
     margin: 0;
     font-family: Bangers, sans-serif;
     color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;    /* same as flex-grow: 1; */
 }
 
 /* headings and logo */
@@ -159,6 +166,40 @@ label {
     object-fit: cover;
 }
 
+/* socials footer */
+
+.footer a:hover {
+    color: #786C44;
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 1.25rem;
+
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+    list-style-type: none;
+    
+}
+
+.ft-social-list li a {
+    color: inherit;
+}
+
+
+
+/*.ft-social-list li:hover {
+       color: #786C44;
+    } */
+}
+
 /* Small devices under 500px */
 @media only screen and (max-width: 500px) {
     label {
@@ -221,6 +262,8 @@ label {
         --row-height: 200px;
         
     }
+
+
 
 
 }
